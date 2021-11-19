@@ -7,6 +7,7 @@ These codes were developed under `mindspore` deep learning framework, and were w
 
 # Directory structure
 
+```sh
 |---data
 |    |---train
 |    |    |-class1
@@ -24,6 +25,8 @@ These codes were developed under `mindspore` deep learning framework, and were w
 |
 |-Recoder.py
 |-Solver.py
+```
+
 
 # Prerequisite
 
@@ -49,13 +52,12 @@ The training logs and hyper-parameters will be saved in `./logs/{version}`, and 
 
 The training time of each machine:
 
-- (fastest) HUAWEI modelarts 1x Ascend **with fp16 level O3** (4h/10epochs)
-
-- local NVIDIA TITAN RTX GPU & HUAWEI modelarts 1x V100 **without fp16** (6h/10epochs)
-
-- HUAWEI modelarts 1x Ascend **without fp16** (7h/10epochs)
-
-- (slowest) local NVIDIA TITAN RTX GPU **with fp16 level O2** (9h/10epochs)
+| machine|speed|
+|:-:|:-:|
+|(fastest) HUAWEI modelarts 1x Ascend **with fp16 level O3**|4h/10epochs|
+|local NVIDIA TITAN RTX GPU & HUAWEI modelarts 1x V100 **without fp16**|6h/10epochs|
+|HUAWEI modelarts 1x Ascend **without fp16**|7h/10epochs|
+|(slowest) local NVIDIA TITAN RTX GPU **with fp16 level O2**|9h/10epochs|
 
 # Results
 
