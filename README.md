@@ -67,4 +67,5 @@ The training time of each machine:
 |local GPU 20 epochs, mixup alpha = 0.4, prob = 0.5|0.9725|
 |local GPU 30 epochs, mixup alpha = 0.4, prob = 0.5|0.9732|
 |Ascend 10 epochs, mixup alpha = 0.4, prob = 0.5|0.9709|
+|Ascend 20 epochs, mixup alpha = 0.4, prob = 0.5|0.9720|
 
